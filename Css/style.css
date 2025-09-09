@@ -1,24 +1,66 @@
-.navMenu{
-    background-color:rgb(178, 222, 238);
+body{
+    background-color: #A1E3F9;
+}
+.Main_Menu{
+    display:block;
+    background-color: #3674B5;
+    border-radius: 10px;
     padding:10px;
 }
-#Brand{
-    font-size: 35px;
-    font-weight: 1000;
-    color: rgb(48, 52, 58);
+.Content_Menu{
+    display:flex;
+    align-items: center;
 }
-.navMenu ul li{
- text-align: center;
- font-size: 18px;
- padding:5px;
- padding:2px 25px 2px 15px;
- border-right: 1px solid black;
+.Nav_Logo{
+    flex:2;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 40px;
 }
-.navMenu ul li a{
+.List_Menu{
+    text-decoration: none;
+    display:flex;
+    flex:4;
+}
+.List_Item{
+    flex:1;
+    font-size: 20px;
+}
+.List_Item a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
     font-weight: 600;
-     text-align: center;
 }
-.navMenu button{
-    border-radius: 25px;
-    margin-right: 5px;
+.Button_Nav{
+    flex:1;
+}
+.Button_Nav button{
+    border-radius: 10px;
+}
+.Banner{
+    text-align: center;
+    border-radius: 20px;
+    padding:20px;
+    margin:40px;
+    background-color: #00000048;
+
+}
+.Show_Title{
+    margin-left:20px;
+    color:#000000;
+}
+.Case_Card{
+    display:flex;
+}
+.Card{
+    padding:20px;
+    margin:20px;
+    border-radius: 5px;
+    text-align:center;
+    flex:1;
+    background-color: rgba(0, 0, 0, 0.362);
+}
+footer{
+margin-top: 100px;
+text-align: center;
 }
